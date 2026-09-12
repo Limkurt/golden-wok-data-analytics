@@ -1,0 +1,31 @@
+# Credentials & secrets
+.env
+*.env
+credentials.json
+*.key
+
+# Power BI
+*.pbix.bak
+~$*.pbix
+*.pbit.bak
+
+# Python (Layer 2 scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.ipynb_checkpoints
+
+# Data files (raw data usually shouldn't live in Git if it's large/sensitive)
+/data/*.csv
+/data/*.xlsx
+!/data/.gitkeep
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
