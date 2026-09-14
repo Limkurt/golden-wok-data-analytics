@@ -19,6 +19,7 @@ venv/
 # Data files (raw data usually shouldn't live in Git if it's large/sensitive)
 /data/*.csv
 /data/*.xlsx
+/data/*.zip
 !/data/.gitkeep
 
 # OS junk
